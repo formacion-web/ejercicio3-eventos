@@ -1,0 +1,41 @@
+
+body{
+    font-family:monospace;
+    color:white;
+    padding: 1rem;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    background-color: lawngreen;
+  }
+  div{
+    
+    height:70vh;
+    padding: 10px;
+    border:solid;
+    
+  }
+  div.botonera{
+      background-color: #75C400;
+      border-color: #294500;
+  }
+  div.mensajeria{
+    border-color: #75C400;
+    background-color: #294500;
+    font-size:2rem;
+  //animation: pulse 5s 1;
+    
+  }
+  
+  
+  
+  //@keyframes pulse {
+  //  0% {
+  //    color: #294500;
+  //    transform: scale(0);
+  //  }
+  //  100% {
+  //    color: #75C400;
+  //  }
+  //}
